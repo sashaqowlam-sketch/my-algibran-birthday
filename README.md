@@ -1,6 +1,6 @@
-# Nama Proyek
+# AlGibran's Birthday
 
-Deskripsi singkat proyek.
+Specially For Him
 
 ## Instalasi
 `npm install`
