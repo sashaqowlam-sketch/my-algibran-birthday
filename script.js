@@ -269,7 +269,7 @@ function skipTypewriter() {
         clearInterval(typewriterInterval);
         const messageContent = document.querySelector('.message-content');
         if (messageContent) {
-            const fullMessage = `Hi Cel,<br><br>Happy Birthday!<br><br>Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, apalagi yang kocak-kocak dan gak biasa, karena kamu tuh unik banget! Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.<br><br>Terima kasih udah jadi bagian hidup aku yang paling berharga. Kamu bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget sih!).<br><br>I love you so much! 💕`;
+            const fullMessage = `Hai My Prince,<br><br>Happy Birthday Sayang!<br><br>Hari ini aku pengen sayang ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo sayang ada di dunia ini. Semoga segala keinginan sayang tercapai semuaa, apalagi keinginan bersama akunya :p, hihihii! Aku selalu percaya kalau sayang bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.<br><br>Terima kasih udah jadi bagian hidup aku yang paling berharga. Sayangku Al Gibran bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga di tahun yang baru ini, sayang semakin didekatkan dengan kebahagiaan, semakin sukses, dan tentunya makin ganteng (walaupun sudah ganteng banaar sih!).<br><br>I love you so much My Prince! 💕`;
             messageContent.innerHTML = fullMessage;
             isTyping = false;
             messageContent.scrollTop = messageContent.scrollHeight;
@@ -326,35 +326,35 @@ function startPhotoShow() {
     const photos = [
         {
             text: 'Our First Photo 💕',
-            image: './images/photo1.jpg'
+            image: 'images/photo1.jpeg'
         },
         {
             text: 'Sasha Birthday Moment 🎂',
-            image: './images/photo2.jpg'
+            image: 'images/photo2.jpeg'
         },
         {
             text: 'Adventure Time 🌟',
-            image: './images/photo3.jpg'
+            image: 'images/photo3.jpeg'
         },
         {
             text: 'Cozy Together ❤️',
-            image: './images/photo4.jpg'
+            image: 'images/photo4.jpeg'
         },
         {
             text: 'Sweet Memories 🥰',
-            image: './images/photo5.jpg'
+            image: 'images/photo5.jpeg'
         },
         {
             text: 'Laugh Together 😂',
-            image: './images/photo6.jpg'
+            image: 'images/photo6.jpeg'
         },
         {
             text: 'Perfect Day ☀️',
-            image: './images/photo7.jpg'
+            image: 'images/photo7.jpeg'
         },
         {
             text: 'Love Forever 💖',
-            image: './images/photo8.jpg'
+            image: 'images/photo8.jpeg'
         }
     ];
     
