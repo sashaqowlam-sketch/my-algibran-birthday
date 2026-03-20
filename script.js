@@ -607,7 +607,7 @@ function loadSpotifyPlaylist(playlistNumber) {
     
     if (!iframe) return;
     
-    // Playlist data - Ganti dengan link playlist Spotify kamu
+    // Playlist data
     const playlists = {
         1: {
             // Ganti dengan playlist pertama kamu
