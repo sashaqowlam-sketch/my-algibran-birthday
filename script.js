@@ -613,19 +613,19 @@ function loadSpotifyPlaylist(playlistNumber) {
     const playlists = {
         1: {
             // Ganti dengan playlist pertama kamu
-            embedUrl: 'https://open.spotify.com/track/1UPB5rYJ0bzn6mNSoAHrZC?si=b02c4c7af6b54b93',
+            embedUrl: 'https://open.spotify.com/embed/track/1UPB5rYJ0bzn6mNSoAHrZC?si=b02c4c7af6b54b93',
             name: 'Spesial Song For My Al Gibran',
             description: 'Lagu spesial untuk hari istimewanya Al Gibran ✨'
         },
         2: {
             // Ganti dengan playlist kedua kamu
-            embedUrl: 'https://open.spotify.com/playlist/6wQXxno2UaILrylb8xj2U9?si=pLEg6nQoTGKZSNA9ZBO3Pw&pi=Qix7PSLWQJ2Mv',
+            embedUrl: 'https://open.spotify.com/embed/playlist/6wQXxno2UaILrylb8xj2U9?si=pLEg6nQoTGKZSNA9ZBO3Pw&pi=Qix7PSLWQJ2Mv',
             name: 'Love Songs Collection',
             description: 'Koleksi lagu cinta terbaik untuk kita ❤️'
         },
         3: {
             // Ganti dengan playlist ketiga kamu
-            embedUrl: 'https://open.spotify.com/playlist/3zo8fvdkj6cBhZORaNFbJ4?si=LJTgLiEKS4-1jlsNVVsGkQ&pi=Cg2cCIoNRBORt',
+            embedUrl: 'https://open.spotify.com/embed/playlist/3zo8fvdkj6cBhZORaNFbJ4?si=LJTgLiEKS4-1jlsNVVsGkQ&pi=Cg2cCIoNRBORt',
             name: 'My Day Is More Fun When Youre In It',
             description: 'Lagu-lagu Kecintaan Aku Ke Sayang'
         }
