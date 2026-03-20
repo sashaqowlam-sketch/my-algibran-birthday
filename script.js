@@ -225,13 +225,16 @@ function startTypewriter() {
     
     const fullMessage = `Hi,
 
-Happy Birthday!
+Happy Birthday Sayangku Al Gibran!
 
-Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, apalagi yang kocak-kocak dan gak biasa, karena kamu tuh unik banget! Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.
+haaiii my prince algibran akbar.. 🤍
 
-Terima kasih udah jadi bagian hidup aku yang paling berharga. Kamu bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget sih!).
+makasih ya sayaangku sudah lahir ke dunia dan jadi bagian paling indah di hidup aku. setiap hari bareng sayang itu rasanya kayak mimpi yang gamau aku udahin. sayang itu rumah, tempat aku pulang, alasan kenapa aku selalu ngerasa cukup dan alasan aku untuk semangat bertahan didunia ini.
 
-I love you so much! 💕`;
+semoga di umur sayang yang baru ini, sayang selalu dikelilingi bahagia yang ga habis-habis, Allah kabulkan semua impian sayang, dan Allah jadikan sayang hambaNya yang paling disayang. tetep jadi algibran yang aku sayang, yang selalu sabar dan bikin aku ngerasa jadi perempuan paling beruntung yaaww. i love you more than words could ever say, sayang. i love you fooooorever!
+
+sehat selalu ya, gantengnya aku. happy birthday! 🎂✨
+your princess, sasha 💕`;
     
     // Clear content and start fresh
     messageContent.innerHTML = '';
@@ -322,11 +325,11 @@ function startPhotoShow() {
     // Foto lokal dari folder images
     const photos = [
         {
-            text: 'Our First Date 💕',
+            text: 'Our First Photo 💕',
             image: './images/photo1.jpg'
         },
         {
-            text: 'Birthday Moment 🎂',
+            text: 'Sasha Birthday Moment 🎂',
             image: './images/photo2.jpg'
         },
         {
@@ -610,21 +613,21 @@ function loadSpotifyPlaylist(playlistNumber) {
     const playlists = {
         1: {
             // Ganti dengan playlist pertama kamu
-            embedUrl: 'https://open.spotify.com/embed/playlist/37i9dQZF1DWYtQSOiZF6hj?si=0b945793c2934ba1',
-            name: 'Birthday Special Mix',
-            description: 'Lagu-lagu spesial untuk hari istimewa kamu ✨'
+            embedUrl: 'https://open.spotify.com/track/1UPB5rYJ0bzn6mNSoAHrZC?si=b02c4c7af6b54b93',
+            name: 'Spesial Song For My Al Gibran',
+            description: 'Lagu spesial untuk hari istimewanya Al Gibran ✨'
         },
         2: {
             // Ganti dengan playlist kedua kamu
-            embedUrl: 'https://open.spotify.com/embed/playlist/3gPSenyxZMdB3A54HeEruz?si=6b4dec830d4f4a48',
+            embedUrl: 'https://open.spotify.com/playlist/6wQXxno2UaILrylb8xj2U9?si=pLEg6nQoTGKZSNA9ZBO3Pw&pi=Qix7PSLWQJ2Mv',
             name: 'Love Songs Collection',
             description: 'Koleksi lagu cinta terbaik untuk kita ❤️'
         },
         3: {
             // Ganti dengan playlist ketiga kamu
-            embedUrl: 'https://open.spotify.com/embed/playlist/4dlQ4JHE6abxv38aae2HL1?si=95730613199e4dad',
-            name: 'Happy Memories',
-            description: 'Lagu-lagu yang mengingatkan kenangan indah 🌟'
+            embedUrl: 'https://open.spotify.com/playlist/3zo8fvdkj6cBhZORaNFbJ4?si=LJTgLiEKS4-1jlsNVVsGkQ&pi=Cg2cCIoNRBORt',
+            name: 'My Day Is More Fun When You're In It',
+            description: 'Lagu-lagu Kecintaan Aku Ke Sayang'
         }
     };
     
@@ -774,7 +777,7 @@ function drawTetrisBoard() {
     }
     
     // Draw prominent border around play area
-    ctx.strokeStyle = '#9bbc0f';
+    ctx.strokeStyle = '#859ce8';
     ctx.lineWidth = 4; // Much thicker border
     ctx.strokeRect(2, 2, canvas.width - 4, canvas.height - 4);
 }
@@ -832,13 +835,13 @@ function drawPiece(piece) {
 
 function getBlockColor(type) {
     const colors = {
-        1: '#ff4757', // I-piece - bright red
-        2: '#2ed573', // O-piece - bright green
+        1: '#ff47ce', // I-piece - bright pink
+        2: '#b4eecc', // O-piece - bright green
         3: '#3742fa', // T-piece - bright blue
-        4: '#ff6b35', // S-piece - bright orange
+        4: '#e6977b', // S-piece - bright orange
         5: '#ffa502', // Z-piece - bright yellow
         6: '#a55eea', // J-piece - bright purple
-        7: '#26d0ce'  // L-piece - bright cyan
+        7: '#5debe8'  // L-piece - bright cyan
     };
     return colors[type] || '#ffffff';
 }
