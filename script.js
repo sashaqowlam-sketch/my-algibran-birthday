@@ -223,11 +223,9 @@ function startTypewriter() {
     const messageContent = document.querySelector('.message-content');
     if (!messageContent) return;
     
-    const fullMessage = `Hi,
+    const fullMessage = `Happy Birthday Sayangku Al Gibran!
 
-Happy Birthday Sayangku Al Gibran!
-
-haaiii my prince algibran akbar.. 🤍
+my prince algibran akbar.. 🤍
 
 makasih ya sayaangku sudah lahir ke dunia dan jadi bagian paling indah di hidup aku. setiap hari bareng sayang itu rasanya kayak mimpi yang gamau aku udahin. sayang itu rumah, tempat aku pulang, alasan kenapa aku selalu ngerasa cukup dan alasan aku untuk semangat bertahan didunia ini.
 
@@ -333,7 +331,7 @@ function startPhotoShow() {
             image: 'images/photo2.jpeg'
         },
         {
-            text: 'Adventure Time 🌟',
+            text: 'Adventure Time Ke Bogor 🌟',
             image: 'images/photo3.jpeg'
         },
         {
@@ -345,11 +343,11 @@ function startPhotoShow() {
             image: 'images/photo5.jpeg'
         },
         {
-            text: 'Laugh Together 😂',
+            text: 'Silly Moment Together 😂',
             image: 'images/photo6.jpeg'
         },
         {
-            text: 'Perfect Day ☀️',
+            text: 'Perfect Man 👨',
             image: 'images/photo7.jpeg'
         },
         {
@@ -626,7 +624,7 @@ function loadSpotifyPlaylist(playlistNumber) {
         3: {
             // Ganti dengan playlist ketiga kamu
             embedUrl: 'https://open.spotify.com/embed/playlist/3zo8fvdkj6cBhZORaNFbJ4?si=LJTgLiEKS4-1jlsNVVsGkQ&pi=Cg2cCIoNRBORt',
-            name: 'My Day Is More Fun When Youre In It',
+            name: 'My Day Is More Fun <br> When Youre In It',
             description: 'Lagu-lagu Kecintaan Aku Ke Sayang'
         }
     };
