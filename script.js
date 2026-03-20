@@ -626,7 +626,7 @@ function loadSpotifyPlaylist(playlistNumber) {
         3: {
             // Ganti dengan playlist ketiga kamu
             embedUrl: 'https://open.spotify.com/playlist/3zo8fvdkj6cBhZORaNFbJ4?si=LJTgLiEKS4-1jlsNVVsGkQ&pi=Cg2cCIoNRBORt',
-            name: 'My Day Is More Fun When You're In It',
+            name: 'My Day Is More Fun When Youre In It',
             description: 'Lagu-lagu Kecintaan Aku Ke Sayang'
         }
     };
